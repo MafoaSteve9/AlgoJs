@@ -1,5 +1,5 @@
 function getVowelsNumber(txt) {
-    const vowels = txt.match(/[aeiouy]/gi)
+    const vowels = txt.match(/[aeiouy]/gi);
         if (vowels) {
             return vowels.length;
         }

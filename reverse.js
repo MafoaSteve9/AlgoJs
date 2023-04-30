@@ -1,12 +1,11 @@
 function reverse(str) {
-    return  str.split('').reverse().join('')
+    return  str.split('').reverse().join('');
     
 }
 
 
 // One liner
- const reverse = str => str.split('').reverse().join('')
-
+ const reverse = str => str.split('').reverse().join('');
 /* Créez un algorithme qui retourne la chaîne de caractères passée en argument à l'envers. */
 
 

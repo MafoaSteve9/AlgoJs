@@ -4,12 +4,12 @@ function conversion(deg) {
 
     } else {
 
-        return 'Données en entrée non-correctes.'
+        return 'Données en entrée non-correctes.';
     }
 
 }
 // One liner
-const conversion = deg => Number.isInteger(deg) ? Math.trunc(deg * (9 / 5) + 32) : 'Données en entrée non-correctes.'
+const conversion = deg => Number.isInteger(deg) ? Math.trunc(deg * (9 / 5) + 32) : 'Données en entrée non-correctes.';
 
 /* 
 Créez un algorithme qui sert à convertir des degrés Celsius en degrés Fahrenheit.
