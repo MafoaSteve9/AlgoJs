@@ -1,0 +1,10 @@
+function removeDuplicates(arr) {
+    return [...new Set(arr)];
+  } 
+  
+
+/* Créez un algorithme qui retourne un tableau sans les valeurs doublon de celui qui est passé en argument. */
+
+/* Tests à passer 🧪 */
+console.log(removeDuplicates([5,5,4,6,3,5]));
+console.log(removeDuplicates(["a","b","z","z","e","a"]));   // ["a", "b", "z", "e"]
