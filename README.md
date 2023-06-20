@@ -1,2 +1,0 @@
-# AlgoJs
-Training Js  
