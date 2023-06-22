@@ -10,12 +10,12 @@ function basicOp(operation, value1, value2) {
     }
 }
 
-// Votre tâche consiste à créer une fonction qui effectue quatre opérations mathématiques de base.
+// Your task is to create a function that does four basic mathematical operations.
 
-// La fonction doit prendre trois arguments - opération (chaîne/caractère), valeur1 (nombre), valeur2 (nombre).
-// La fonction doit renvoyer le résultat des nombres après avoir appliqué l'opération choisie.
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
 
-// Exemples(Opérateur, valeur1, valeur2) --> résultat
+// Examples(Operator, value1, value2) --> output
 
 console.log(basicOp('+', 4, 7), 11);
 console.log(basicOp('+', 4, 7), 11);
