@@ -1,5 +1,5 @@
 function sumArray(array) {
-    if (array.length < 3) {
+    if (array < 3) {
       return 0;
     }
   
@@ -9,7 +9,7 @@ function sumArray(array) {
     return sum;
   }
   
-
+console.log(sumArray(null));
 console.log(sumArray([ 3, 5 ])                 , 0 );
 console.log(sumArray([ 6, 2, 1, 8, 10 ])       , 16 );
 console.log(sumArray([ 0, 1, 6, 10, 10 ])      , 17 );
