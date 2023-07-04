@@ -1,13 +1,14 @@
-function sumArray(array) {
-    if (array < 3) {
-      return 0;
-    }
-  
-    const sortedArray = array.sort((a, b) => a - b);
-    const sum = sortedArray.slice(1, -1).reduce((acc, curr) => acc + curr, 0);
-  
-    return sum;
+function sumArray(arr) {
+  if (!Array.isArray(arr) || arr.length <= 2) {
+    return 0;
   }
+
+  const sortedArr = arr.sort((a, b) => a - b);
+  const sum = sortedArr.slice(1, -1).reduce((acc, num) => acc + num, 0);
+
+  return sum;
+}
+
   
 console.log(sumArray(null));
 console.log(sumArray([ 3, 5 ])                 , 0 );
