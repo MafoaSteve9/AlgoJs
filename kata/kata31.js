@@ -7,10 +7,7 @@ var uniqueInOrder = function(iterable) {
     }
 }
 return tab;
-}
 
-// function removeConsecutiveDuplicates(array) {
-//     return array.filter((value, index) => value !== array[index + 1]);
-// }
+}
 
 console.log(uniqueInOrder('AAAABBBCCDAABBB'), ['A','B','C','D','A','B'])
